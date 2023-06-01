@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Resources </title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+    <script defer src="static/assets/fontawesome/js/all.min.js"></script>
+    
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="static/assets/plugins/simplelightbox/simple-lightbox.min.css">
+
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="static/assets/css/theme.css">
+
+</head> 
+
+<body class="docs-page">    
+    <header class="header fixed-top">	    
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none" type="button">
+	                    <span></span>
+	                    <span></span>
+	                    <span></span>
+	                </button>
+	                <div class="site-logo"><a class="navbar-brand" href="/"><i class="fas fa-cogs fa-fw" style="color:#0276FD;"></i><span class="logo-text" style="margin-left:2%;">Election<span class="text-alt">Peak</span></span></a></div>
+                </div><!--//docs-logo-wrapper-->
+	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
+	                <div class="top-search-box d-none d-lg-flex">
+<!--		                <form class="search-form">-->
+<!--				            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">-->
+<!--				            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>-->
+<!--				        </form>-->
+	                </div>
+	
+					<ul class="social-list list-inline mx-md-3 mx-lg-5 mb-0 d-none d-lg-flex">
+<!--						<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>-->
+<!--			            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>-->
+<!--		                <li class="list-inline-item"><a href="#"><i class="fab fa-slack fa-fw"></i></a></li>-->
+<!--		                <li class="list-inline-item"><a href="#"><i class="fab fa-product-hunt fa-fw"></i></a></li>-->
+		            </ul><!--//social-list-->
+		            <a href="https://github.com/adrushtshetty/ElectionPeak_V.1.0.4.git" class="btn btn-primary d-none d-lg-flex">Download Project</a>
+	            </div><!--//docs-top-utilities-->
+            </div><!--//container-->
+        </div><!--//branding-->
+    </header><!--//header-->
+    
+    
+    <div class="docs-wrapper">
+	    <div id="docs-sidebar" class="docs-sidebar">
+		    <div class="top-search-box d-lg-none p-3">
+                <form class="search-form">
+		            <input type="text" placeholder="Search the docs..." name="search" class="form-control search-input">
+		            <button type="submit" class="btn search-btn" value="Search"><i class="fas fa-search"></i></button>
+		        </form>
+            </div>
+		    <nav id="docs-nav" class="docs-nav navbar">
+			    <ul class="section-items list-unstyled nav flex-column pb-3">
+					<li class="nav-item section-title mt-3"><a class="nav-link" style="margin-left:-1%;" href="/documentation_index"><span class="theme-icon-holder me-2"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+					</svg></span> Dashboard</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-1"><span class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Installation</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Individual System</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Server Version</a></li>
+<!--				    <li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Section Item 2.3</a></li>-->
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder me-2"><i class="fas fa-box"></i></span>Procedure</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1-1">Clearing the HTML Pages</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">HTML Editor</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Manual - Images</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Manual - Candidate Details</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-4">Manual - Ballot DIV</a></li>
+
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-5"><span class="theme-icon-holder me-2"><i class="fas fa-tools"></i></span>Utilities</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-1">Accessing Utilites</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-2">Database Cleaner</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-5-3">Login Credentials</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#item-5-4">Clearing Candidate Details</a></li>
+
+
+			    </ul>
+
+		    </nav><!--//docs-nav-->
+	    </div><!--//docs-sidebar-->
+	    <div class="docs-content" >
+		    <div class="container">
+			    <article class="docs-article" id="section-1" style="margin-left:-10%;">
+
+
+					<header class="docs-header" style="margin-left:10%">
+					    <h1 class="docs-heading">Installation</h1>
+					    <section class="docs-intro" id="item-2-1">
+						    <p>The following includes the process to be followed to prepare the platform for a new election.</p>
+							<div class="simplelightbox-gallery row mb-3">
+											<div class="col-12 col-md-4 mb-3 " >
+												<br>
+
+												<h2 class="section-heading">Individual System</h2>
+												<ol>
+                                                <li>There are two methods for hosting this platform. The first method involves utilizing the application on individual systems, where each system must be equipped with the required modules listed in the "requirements.txt" file located in the application's root folder.</li>
+												</ol>
+												<div class="docs-code-block">
+							<pre class="shadow-lg rounded"><code class="json hljs">
+SchoolElection\static\img\team
+
+C:.
+│   main.py
+│   Procfile
+│   requirements.txt
+│   res.csv
+│   resSportsCaptain.csv
+│   resViceCaptain.csv
+│   runtime.txt
+│   tree.txt
+│   trial.csv
+│   		...
+
+							</code></pre>
+						</div>
+												</section>
+
+						<section class="docs-intro" id="item-2-2">
+												<br>
+													<h2 class="section-heading">Server Version</h2>
+												<ol>
+													<div class="simplelightbox-gallery row mb-3">
+													<li><p>The second method entails utilizing a single system as the host, with all devices connected to the network being able to access the application using the IP address for the host computer over the network. The link to access the application can be found in the PyCharm terminal.</p></li>
+													<a href="static/assets/images/runterminal.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/runterminal.png" alt="" title="Run Terminal"/></a>
+													</div>
+												</ol>
+
+
+<!--												<a href="static/assets/images/ballot_line1.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/ballot_line1.jpg" alt="" title="Search Result 1"/></a>-->
+											</div>
+										</div>
+						</section><!--//docs-intro-->
+				    </header>
+
+					
+<!--					<section class="docs-section" id="item-2-3">-->
+<!--						<h2 class="section-heading">Section Item 2.3</h2>-->
+<!--						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>-->
+<!--					</section>&lt;!&ndash;//section&ndash;&gt;-->
+			    </article><!--//docs-article-->
+			    
+			    
+			    <article class="docs-article" id="section-3" style="margin-left:20%;margin-top:-30%">
+
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Procedure</h1>
+					    <section class="docs-intro">
+						    <p>The following includes the process to be followed to prepare the platform for a new election.</p>
+						</section><!--//docs-intro-->
+				    </header>
+					<section class="docs-section" id="item-3-1-1">
+						<h2 class="section-heading">Clear the Previous Candidate Details</h2>
+
+						<br>
+						<div style="margin-left:3.5%;">
+							<h3><a class="nav-link scrollto" href="#item-5-4">Clearing Candidate Details</a></h3>
+
+							<ul>
+							<li><h4>For comprehensive guidance on the process of removing all candidate information, please consult the utilities section for detailed instructions by clicking the heading above.</h4></li>
+							</ul>								</ul>
+						</div>
+						<br>
+
+					</section><!--//section-->
+					<section class="docs-section" id="item-3-1">
+						<h2 class="section-heading">HTML Editor</h2>
+						 <div class="callout-block callout-block-info">
+                            <div class="content">
+                                <h4 class="callout-title">
+	                                <span class="callout-icon-holder me-1">
+		                                <i class="fas fa-info-circle"></i>
+		                            </span>
+	                                Note
+	                            </h4>
+								<p>Please proceed with caution editing the HTML files to incorporate the candidate's information. It is important to note that the candidate's details will be added in a sequential manner, with each new addition appearing above the previous one. Therefore, careful consideration must be given to the order in which the candidates are added if a specific sequence is desired.</p>
+								                            </div><!--//content-->
+                        </div><!--//callout-block-->
+                                <ol>
+									<li><p>Please select the card designated for the HTML Editor located within the admin dashboard.</li>
+										<div class="simplelightbox-gallery row mb-3">
+											<div class="col-12 col-md-4 mb-3 " >
+												<h5>Admin Dashboard</h5>
+												<a href="static/assets/images/DashboardHTMLEditor.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/DashboardHTMLEditor.png" alt="" title="HTML Editor : Dashboard "/></a>
+												<br>
+												<h5>HTML Editor</h5>
+												<a href="static/assets/images/HTMLeditor.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/HTMLeditor.png" alt="" title="HTML Editor"/></a>
+											</div>
+										</div>
+                                    <li><p>Kindly input the candidate's information and save their respective profile image in the designated pathway specified below.</p></li>
+                                    <div class="docs-code-block">
+							<pre class="shadow-lg rounded"><code class="json hljs">
+SchoolElection\static\img\team
+
+C:.
+│   main.py
+│   Procfile
+│   requirements.txt
+│   res.csv
+│   resSportsCaptain.csv
+│   resViceCaptain.csv
+│   runtime.txt
+│   tree.txt
+│   trial.csv
+│
+├───static
+│   │
+│   ├───img
+│   │   │   apple-touch-icon.png
+│   │   │   favicon.png
+│   │   │   hero-bg.jpg
+│   │   │   hero-bg1.jpg
+│   │   │   hero-bg2.jpg
+│   │   │   hero-bg4.jpg
+│   │   │   image1.jpg
+│   │   │   logo.png
+│   │   │
+│   │   └───team
+│   │           AADYASHA PRAKASH RAO v1.jpg
+│   │		...
+
+							</code></pre>
+						</div>
+									<div class="simplelightbox-gallery row mb-3">
+											<div class="col-12 col-md-4 mb-3 " >
+												<h5>School Captain Details</h5>
+                                                <p>Please provide the necessary details below for the candidates running for the position of School Captain.</p>
+
+												<a href="static/assets/images/CandidateDetails.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/CandidateDetails.png" alt="" title="Candidate Details"/></a>
+												<br>
+												<h5>Status</h5>
+												<ol>
+													<li><p>Kindly await confirmation within the status division subsequent to the submission of your particulars.</p></li>
+													<a href="static/assets/images/Status.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/Status.png" alt="" /></a>
+													<li><p>Once the confirmation has been observed, kindly reset the form in order to append a new entry.</p></li>
+													<a href="static/assets/images/reset.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/reset.png" alt="" /></a>
+													<li><p>Upon completion of filing all candidates for the position of school captain, one may navigate to the editor for the vice captain or sports captain via the navigation pane.</p></li>
+													<a href="static/assets/images/Navbar.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/Navbar.png" alt="" /></a>
+												</ol>
+
+<!--												<a href="static/assets/images/ballot_line1.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/ballot_line1.jpg" alt="" title="Search Result 1"/></a>-->
+											</div>
+										</div>
+                                </ol>
+					</section><!--//section-->
+
+
+
+
+
+
+				     <section class="docs-section" id="item-3-2" >
+						<h2 class="section-heading">Manual - Images</h2>
+						<p>Delete all the images in the team folder and replace them with the images of the candidates.</p>
+						 <div class="docs-code-block">
+							<pre class="shadow-lg rounded"><code class="json hljs">
+SchoolElection\static\img\team
+
+C:.
+│   main.py
+│   Procfile
+│   requirements.txt
+│   res.csv
+│   resSportsCaptain.csv
+│   resViceCaptain.csv
+│   runtime.txt
+│   tree.txt
+│   trial.csv
+│
+├───static
+│   │
+│   ├───img
+│   │   │   apple-touch-icon.png
+│   │   │   favicon.png
+│   │   │   hero-bg.jpg
+│   │   │   hero-bg1.jpg
+│   │   │   hero-bg2.jpg
+│   │   │   hero-bg4.jpg
+│   │   │   image1.jpg
+│   │   │   logo.png
+│   │   │
+│   │   └───team
+│   │           AADYASHA PRAKASH RAO v1.jpg
+│   │		...
+
+							</code></pre>
+						</div>
+					</section><!--//section-->
+					
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading">Manual - Candidate Details</h2>
+						<p>In the templates directory open candidates.html</p>
+						<div class="docs-code-block">
+							<pre class="shadow-lg rounded"><code class="json hljs">
+SchoolElection\templates\candidates.html
+
+C:.
+│   main.py
+│   Procfile
+│   requirements.txt
+│   res.csv
+│   resSportsCaptain.csv
+│   resViceCaptain.csv
+│   runtime.txt
+│   tree.txt
+│   trial.csv
+│
+├───templates
+│       admin.html
+│       candidates.html
+│       docs-page.html
+│       index.html
+│       index_doc.html
+│       login.html
+
+							</code></pre>
+						</div>
+						<br>
+						<br>
+						<div style="margin-left:3.5%;">
+							<h3>Changes in candidates.html</h3>
+							<ul>
+								<div class="simplelightbox-gallery row mb-3">
+							<li><p>Search the file for the keyword "candit" (Ctr + F, "candit") </p></li>
+								<div>
+									<div class="col-12 col-md-4 mb-3 " >
+										<h5>Search bar</h5>
+								        <a href="static/assets/images/candit.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/candit.jpg" alt="" title="Search for candit in candidates.html"/></a>
+									</div>
+								</div>
+							<li><p>In the search results navigate to the 2nd result.</p></li>
+								<div >
+									<div class="col-12 col-md-4 mb-3">
+										<h5>Search result 2</h5>
+								        <a href="static/assets/images/candit_sr2.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/candit_sr2.jpg" alt="" title="Search result 2"/></a>
+									</div>
+									<div class="col-12 col-md-4 mb-3">
+										<h5>Search result 1</h5>
+								        <a href="static/assets/images/candit_sr1.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/candit_sr1.jpg" alt="" title="Search result 1"/></a>
+									</div>
+								</div>
+							<li><p>As you can see each candidate has a div, all one has to do is:</p></li>
+								<div >
+									<div class="col-12 col-md-4 mb-3">
+										<h5>Candidate div</h5>
+<!--								        <a href="static/assets/images/candit_div.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/candit_div.jpg" alt="" title="DIV for each canidate"/></a>-->
+										<a href="static/assets/images/candit_div.jpg"><img class="figure-img img-fluid shadow rounded" style="height:200px;width:500px;" src="static/assets/images/candit_div.jpg" alt="" title="DIV for each canidate"/></a>
+									</div>
+								</div>
+									<li><h5>Edit the name (h4 tag).</h5></li>
+										<div >
+											<div class="col-12 col-md-4 mb-3">
+												<h6>Candidate Name</h6>
+												<p>In this case edit all the text in h4 tag(Ananya G...)</p>
+												<a href="static/assets/images/candit_name.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/candit_name.jpg" alt="" title="Name of candidate in h4 tag"/></a>
+											</div>
+										</div>
+									<li><h5>Edit the achievements (right bellow the name in the p tag, after font tag).</h5></li>
+										<div >
+											<div class="col-12 col-md-4 mb-3">
+												<h6>Candidate Achievements</h6>
+												<p>In this case edit all the text selected or the text in p tag(Lorem ipsum dolor...)</p>
+												<a href="static/assets/images/candit_ach.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/candit_ach.jpg" alt="" title="Achievements of candidate in p tag"/></a>
+											</div>
+										</div>
+									<li><h5>Edit the img source path to the img of the candidate.</h5></li>
+										<div >
+											<div class="col-12 col-md-4 mb-3">
+												<h6>Image Source</h6>
+												<p>Edit the path of the img for the respective candidate</p>
+												<a href="static/assets/images/candit_img.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/candit_img.jpg" alt="" title="Img source"/></a>
+											</div>
+										</div>
+									<li><h5>Edit the fade-in delay (ms is the unit).</h5></li>
+										<div>
+											<div class="col-12 col-md-4 mb-3">
+												<h6>Fade In</h6>
+												<p>Edit the delay in the data-aos-delay attribute i.e the selected text in ms.(This step isn't a necessity just for the sake of better UI)</p>
+												<a href="static/assets/images/candit_fade.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/candit_fade.jpg" alt="" title="Fade in"/></a>
+										</div>
+										</div>
+								</ul>
+							<li><p>Adding a new candidate: </p></li>
+							<script src="https://gist.github.com/adrushtshetty/19fe9e0677773f4b1b2e7e203e2179e9.js"></script>
+								<p>Change the value of data-os-delay attribute to any desired value. (Best to follow previous order of values)</p>
+								</div>
+							</ol>
+						</div>
+
+					</section><!--//section-->
+					
+
+
+						<section class="docs-section" id="item-3-4" style="margin-left:20%;">
+						<h2 class="section-heading">Manual - Ballot DIV</h2>
+						 <div class="callout-block callout-block-info">
+                            <div class="content">
+                                <h4 class="callout-title">
+	                                <span class="callout-icon-holder me-1">
+		                                <i class="fas fa-info-circle"></i>
+		                            </span>
+	                                Note
+	                            </h4>
+								<p>Caution while editing this section as this is the section that writes the name of the student to the databases. </p>
+								                            </div><!--//content-->
+                        </div><!--//callout-block-->
+                                <ol>
+									<li><p>Search the file for the keyword  <code>&lt;form</code> (Ctr + F, <code>&lt;form</code>) </p></li>
+										<div class="simplelightbox-gallery row mb-3">
+											<div class="col-12 col-md-4 mb-3 " >
+												<h5>Search bar</h5>
+												<a href="static/assets/images/search_form.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/search_form.jpg" alt="" title="Search for <form in candidates.html"/></a>
+												<br>
+												<h5>Search Result 1</h5>
+												<p>This is the section that will be edited. </p>
+												<a href="static/assets/images/form_search.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/form_search.jpg" alt="" title="Search Result 1"/></a>
+											</div>
+										</div>
+                                    <li><p>Scroll down to the  <code>&lt;thead></code> tag </p></li>
+                                        <div class="simplelightbox-gallery row mb-3">
+											<div class="col-12 col-md-4 mb-3 " >
+												<h5>Search bar</h5>
+                                                <p>To add a new candidate copy and paste the script below.</p>
+                                                <script src="https://gist.github.com/adrushtshetty/b70ef12db59b7d70028dffbd1d951d9e.js"></script>
+												<a href="static/assets/images/candit_ballot.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/candit_ballot.jpg" alt="" title="Ballot Box"/></a>
+												<br>
+												<h5>Editing Ballot details</h5>
+												<ol>
+													<li><p>The first line (i.e line 873) has the address to the candidates picture. Changing the width and height can be done if needed by changing the width and height attributes</p></li>
+													<a href="static/assets/images/ballot_line1.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/ballot_line1.jpg" alt="" /></a>
+													<li><p>The second line (i.e line 876)has the name of the candidate.</p></li>
+													<a href="static/assets/images/ballot_line2.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/ballot_line2.jpg" alt="" /></a>
+													<li><p>The fourth line (i.e line 877) has the value that will be written into the csv and be displayed on the results page.</p></li>
+													<a href="static/assets/images/ballot_line4.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/ballot_line4.jpg" alt="" /></a>
+												</ol>
+
+<!--												<a href="static/assets/images/ballot_line1.jpg"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/ballot_line1.jpg" alt="" title="Search Result 1"/></a>-->
+											</div>
+										</div>
+                                </ol>
+
+
+
+
+					</section><!--//section-->
+			    </article><!--//docs-article-->
+			    
+
+			    <article class="docs-article" id="section-5" style="margin-left:20%;">
+				    <header class="docs-header">
+					    <h1 class="docs-heading">Utilities</h1>
+					    <section class="docs-intro">
+						    <p>This section comprises the descriptions and functionalities of several tools available on our platform to assist users in conducting elections.</p>
+						</section><!--//docs-intro-->
+				    </header>
+					<section class="docs-section" style="margin-left:3%" id="item-5-1" >
+						<h2 class="section-heading">Accessing Utilites</h2>
+						<p>The utilities described below can be located by the user in the administrative dashboard.</p>
+
+										<div class="simplelightbox-gallery row mb-3">
+											<div class="col-12 col-md-4 mb-3 " >
+												<h5>Dashboard</h5>
+												<a href="static/assets/images/utilities.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/utilities.png" alt="" title="Utilities Card"/></a>
+																							</div>
+										</div>
+					</section>
+					<section class="docs-section" style="margin-left:3%" id="item-5-2">
+						<h2 class="section-heading">Database Cleaner</h2>
+						<p>This tool permits the user to erase the databases utilized for vote counting and initiate a new election. Exercise caution when accessing the result page after clearing the databases, as it will result in an error</p>
+						<div class="simplelightbox-gallery row mb-3">
+											<div class="col-12 col-md-4 mb-3 " >
+												<h5>Dashboard</h5>
+												<a href="static/assets/images/databasecleaner.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/databasecleaner.png" alt="" title="Database Cleaner" /></a>
+												<br>
+												<br>
+												<p>Upon clicking the "submit" button, the user can view the status and verify that the databases have been successfully cleared.</p>
+												<a href="static/assets/images/datastatus.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/datastatus.png" alt="" title="Database Cleaner" /></a>
+
+											</div>
+						</div>
+					</section>
+					<section class="docs-section" style="margin-left:3%" id="item-5-3">
+						<h2 class="section-heading">Login Credentials</h2>
+						<p>This tool, located in the navigation bar, enables the user to modify their login credentials, view their current login information, and edit the recovery email addresses to which their credentials will be sent.</p>
+						<div class="simplelightbox-gallery row mb-3">
+											<div class="col-12 col-md-4 mb-3 " >
+												<h5>Nav Bar</h5>
+												<a href="static/assets/images/nvlog.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/nvlog.png" alt="" title="Navbar" /></a>
+												<br>
+												<br>
+												<a href="static/assets/images/logincred.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/logincred.png" alt="" title="Login Credential" /></a>
+												<br>
+												<br>
+												<p>Upon inputting their password and username, the user can verify their status on the right-hand side.</p>
+
+												<a href="static/assets/images/pswchane.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/pswchane.png" alt="" title="Status" /></a>
+												<br>
+												<br>
+												<p>The user can access their current login credentials by selecting the button below.</p>
+												<a href="static/assets/images/viewcred.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/viewcred.png" alt="" title="View Credentials" /></a>
+												<br>
+												<br>
+												<p>By selecting the "MAIL ID" button, the user can add their email addresses to the list of recipients who will receive login credentials in the event that they are forgotten.</p>
+												<a href="static/assets/images/MAILID.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/MAILID.png" alt="" title="Mail ID" /></a>
+
+											</div>
+						</div>
+					</section>
+					<section class="docs-section" style="margin-left:3%" id="item-5-4">
+						<h2 class="section-heading">Clearing Candidate Details</h2>
+						<p>This tool enables you to eliminate candidate information from the entire application, thereby providing you with the ability to enter details for subsequent candidates.</p>
+						<div class="simplelightbox-gallery row mb-3">
+											<div class="col-12 col-md-4 mb-3 " >
+												<h5>Nav Bar</h5>
+												<a href="static/assets/images/C1.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/C1.png" alt="" title="Navbar" /></a>
+												<br>
+												<br>
+												<a href="static/assets/images/C2.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/C2.png" alt="" title="Clear Candidate Details" /></a>
+												<br>
+												<br>
+												<p>Upon selecting the radio button for clearing the database and submitting the form, it is anticipated that the status will indicate "Candidates Details Cleared."</p>
+
+												<a href="static/assets/images/C3.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/C3.png" alt="" title="Status" /></a>
+
+
+											</div>
+						</div>
+					</section>
+
+
+
+<!--				     <section class="docs-section" >-->
+<!--&lt;!&ndash;						<h2 class="section-heading">Accessing Utilites</h2>&ndash;&gt;-->
+<!--						<p>The utilities described below can be located by the user in the administrative dashboard.</p>-->
+<!--						 <a href="static/assets/images/utilities.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/utilities.png" alt="" title="Admin Dashboard" /></a>-->
+
+
+<!--					</section>-->
+					
+<!--					<section class="docs-section" id="item-5-2">-->
+<!--						<div class="simplelightbox-gallery row mb-3">-->
+<!--											<div class="col-12 col-md-4 mb-3 " >-->
+<!--						<h2 class="section-heading">Database Cleaner</h2>-->
+<!--						<p>This tool permits the user to erase the databases utilized for vote counting and initiate a new election. Exercise caution when accessing the result page after clearing the databases, as it will result in an error</p>-->
+<!--						<a href="static/assets/images/databasecleaner.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/databasecleaner.png" alt="" title="Database Cleaner" /></a>-->
+<!--						<br>-->
+<!--						<p>Upon clicking the "submit" button, the user can view the status and verify that the databases have been successfully cleared.</p>-->
+<!--						<a href="static/assets/images/datastatus.png"><img class="figure-img img-fluid shadow rounded" src="static/assets/images/datastatus.png" alt="" title="Database Cleaner" /></a>-->
+<!--											</div>-->
+<!--						</div>-->
+<!--					</section>&lt;!&ndash;//section&ndash;&gt;-->
+					
+<!--					<section class="docs-section" id="item-5-3">-->
+<!--							<h2 class="section-heading">Section Item 5.3</h2>-->
+<!--						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>-->
+<!--					</section>&lt;!&ndash;//section&ndash;&gt;-->
+			    </article><!--//docs-article-->
+			    
+			    
+
+
+		    </div> 
+	    </div>
+    </div><!--//docs-wrapper-->
+   
+       
+    <!-- Javascript -->          
+    <script src="static/assets/plugins/popper.min.js"></script>
+    <script src="static/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    
+    
+    <!-- Page Specific JS -->
+    <script src="static/assets/plugins/smoothscroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="static/assets/js/highlight-custom.js"></script>
+    <script src="static/assets/plugins/simplelightbox/simple-lightbox.min.js"></script>
+    <script src="static/assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+    <script src="static/assets/js/docs.js"></script>
+
+</body>
+</html> 
+
